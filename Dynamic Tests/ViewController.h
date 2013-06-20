@@ -9,5 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+@private
+//    UIDynamicAnimator *_animator;
+//    UICollisionBehavior *_collision;
+    UIGravityBehavior *_gravity;
+    UICollectionView *_collectionView;
+}
+
+@property ( nonatomic, readwrite, assign ) UIButton *refreshButton;
 
 @end
